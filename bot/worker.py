@@ -30,7 +30,7 @@ from .FastTelethon import download_file, upload_file
 
 from .funcn import *
 
-encode_id = -1001229051778
+encode_id = -1002084711134
 
 async def stats(e):
 
@@ -118,14 +118,16 @@ async def dl_link(event):
 
     rr = "encode"
 
-    bb = kk.replace("Animepahe", "")
+    bb = kk.replace("@AnimeFiles", "")
 
     tt = bb
 
-    tt = tt.replace("_","")
+    tt = tt.replace("[720p]","(720p)")
     ff = tt
-    ff = ff.replace("SubsPlease","@animxt")
-
+    
+    ff = ff.replace("[800p]","(720p)")
+    uu = ff
+    uu = uu.replace("[1080p]","(1080p)")
     out = f"{rr}/{bb}"
 
     thum = "thumb.jpg"
