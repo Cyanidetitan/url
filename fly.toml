@@ -4,10 +4,11 @@ kill_timeout = 5
 processes = []
 
 [env]
-  API_ID = 0
-  API_HASH = ""
-  BOT_TOKEN = ""
-  BOT_USERNAME = ""
+APP_ID = 8858279
+API_HASH = "ef28c3f458143cbcb4271a98a2e9d596"
+BOT_TOKEN = "6568167043:AAHA5P_hrbESbgyyjASg7tGpjP0Fp1FJNVo"
+DEV = 1322549723
+OWNER = "5894098166"
   # No need to touch below
 
 [experimental]
