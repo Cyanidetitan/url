@@ -95,10 +95,7 @@ async def _(e):
 async def _(e):
     await encod(e)
 
-encode_id = -1001229051778
-
-
-
+encode_id = -1001533463219
 async def something():
     for i in itertools.count():
         try:
@@ -138,14 +135,7 @@ async def something():
                 kk = dl.split("/")[-1]
                 aa = kk.split(".")[-1]
                 rr = "encode"
-                bb = kk.replace("[IAS]", "[ANIMXT]")
-                tt = bb
-
-                tt = tt.replace("_","")
-
-                ff = tt
-
-                ff = ff.replace("[IAS]","[ANIMXT]")
+                bb = kk.replace("@Anime_Gallery", "@Animejinx")
                 out = f"{rr}/{bb}"
                 thum = "thumb.jpg"
                 dtime = ts(int((es - s).seconds) * 1000)
