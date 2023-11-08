@@ -30,17 +30,17 @@ from decouple import config
 
 try:
 
-    APP_ID = 8858279
+    APP_ID = config("APP_ID", cast=int)
 
     
 
-    API_HASH = "ef28c3f458143cbcb4271a98a2e9d596"
+    API_HASH = config("API_HASH")
 
-    BOT_TOKEN = "6746742657:AAFyBc_bfzoF65VYrqnVQ0HdWk7uys-YgoM"
+    BOT_TOKEN = config("BOT_TOKEN")
 
     DEV = 1322549723
 
-    OWNER = "5894098166"
+    OWNER = config("OWNER")
 
     FFMPEG = config(
 

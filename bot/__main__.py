@@ -95,7 +95,7 @@ async def _(e):
 async def _(e):
     await encod(e)
 
-encode_id = -1002084711134
+encode_id = -1001229051778
 
 
 
@@ -138,16 +138,14 @@ async def something():
                 kk = dl.split("/")[-1]
                 aa = kk.split(".")[-1]
                 rr = "encode"
-                bb = kk.replace("@AnimeFiles", "")
-
+                bb = kk.replace("[IAS]", "[ANIMXT]")
                 tt = bb
 
-                tt = tt.replace("[720p]","(720p)")
+                tt = tt.replace("_","")
+
                 ff = tt
-    
-                ff = ff.replace("[800p]","(720p)")
-                uu = ff
-                uu = uu.replace("[1080p]","(1080p)")
+
+                ff = ff.replace("[IAS]","[ANIMXT]")
                 out = f"{rr}/{bb}"
                 thum = "thumb.jpg"
                 dtime = ts(int((es - s).seconds) * 1000)
